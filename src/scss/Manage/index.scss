@@ -1,0 +1,14 @@
+@import '../_config.scss';
+html, body {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.m-manage {
+  font-size: 25px;
+  .m-page-name {}
+  .m-page-color {
+    color: blue;
+  }
+}
