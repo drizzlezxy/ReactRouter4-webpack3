@@ -4,4 +4,10 @@
 4. open the browser `localhost:8080`  
 
 
-now we will see:
+
+now we will see:  
+
+- route `/Manage`  
+	css worked
+- route `/Login`  
+	css file generated
