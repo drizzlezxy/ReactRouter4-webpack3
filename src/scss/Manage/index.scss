@@ -6,9 +6,11 @@ html, body {
 }
 
 .m-manage {
+  width: 500px;
+  text-align: center;
+  background: pink;
+  line-height: 50px;
   font-size: 25px;
   .m-page-name {}
-  .m-page-color {
-    color: blue;
-  }
+  .m-page-color {}
 }

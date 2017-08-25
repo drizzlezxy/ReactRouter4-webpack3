@@ -12,8 +12,8 @@ class PageComponent extends Component {
   render () {
     return (
       <div className="m-login">
-        <span className="m-page-name">pageName: Login</span>
-        <span className="m-page-color">pageColor: green</span>
+        <div className="m-page-name">pageName: Login</div>
+        <div className="m-page-color">pageColor: green</div>
       </div>
     );
   }

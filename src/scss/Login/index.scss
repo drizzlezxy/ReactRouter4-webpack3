@@ -6,8 +6,11 @@ html, body {
 }
 
 .m-login {
+  width: 500px;
+  text-align: center;
+  background: green;
+  line-height: 50px;
+  font-size: 25px;
   .m-page-name {}
-  .m-page-color {
-    color: green;
-  }
+  .m-page-color {}
 }

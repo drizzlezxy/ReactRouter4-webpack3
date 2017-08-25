@@ -60,14 +60,14 @@ var webpackConfig = {
       // loader：  一串“！”分隔的装载机（2.0版本以上，”-loader”不可以省略）
       // loaders： 作为字符串的装载器阵列
       {
-        enforce: "pre",
-        //检测文件类型
-        test: /\.(js|jsx)$/,
-        //检测文件位置
-        include: path.join(__dirname, '../src'),
-          //使用eslint-loader
-        use: 'eslint-loader'
-      }, {
+      //   enforce: "pre",
+      //   //检测文件类型
+      //   test: /\.(js|jsx)$/,
+      //   //检测文件位置
+      //   include: path.join(__dirname, '../src'),
+      //     //使用eslint-loader
+      //   use: 'eslint-loader'
+      // }, {
         test: /.jsx?$/,
         use: [
           {
